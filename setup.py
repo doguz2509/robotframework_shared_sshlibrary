@@ -8,5 +8,9 @@ setup(
     license='MIT',
     author='Dmitry Oguz',
     author_email='dogux2509@gmail.com',
-    description='Sharing singleton ssh instance over robotframework namespace'
+    description='Sharing singleton ssh instance over robotframework namespace',
+    install_requires=[
+        'robotframework',
+        'robotframework-sshlibrary'
+    ]
 )
